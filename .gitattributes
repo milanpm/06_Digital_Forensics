@@ -1,0 +1,7 @@
+# Normalize documentation to LF.
+*.md text eol=lf
+.gitattributes text eol=lf
+
+# Preserve exact bytes of Day 1 lab files.
+examples/01_Forensics_Basics/day01/*.txt -text
+examples/01_Forensics_Basics/day01/*.sha256 -text

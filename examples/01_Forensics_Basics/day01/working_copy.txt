@@ -1,0 +1,4 @@
+Patient ID: P001
+Study Date: 20260913
+Modality: CT
+Status: Reviewed
