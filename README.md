@@ -25,9 +25,25 @@ Completed:
 - [Learning notes](examples/01_Forensics_Basics/day1_notes.md)
 - [Lab files](examples/01_Forensics_Basics/day01/)
 
+## Day 2 — File Metadata and Timestamp Analysis
+
+Completed:
+
+- Examined Access, Modify, Change, and Birth timestamps.
+- Compared normal and metadata-preserving copies.
+- Modified a working copy and detected the change with SHA-256.
+- Changed timestamps without changing file contents.
+- Restored selected timestamps and identified remaining metadata traces.
+- Interpreted timestamps with their time-zone information.
+
+### Files
+
+- [Learning notes](examples/01_Forensics_Basics/day2_notes.md)
+- [Lab files and metadata report](examples/01_Forensics_Basics/day02/)
+
 ## Next Step
 
-Day 2 — File Metadata and Timestamp Analysis
+Day 3 — File Signatures and Hexadecimal Analysis
 
 ## Disclaimer
 

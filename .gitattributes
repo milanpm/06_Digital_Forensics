@@ -5,3 +5,5 @@
 # Preserve exact bytes of Day 1 lab files.
 examples/01_Forensics_Basics/day01/*.txt -text
 examples/01_Forensics_Basics/day01/*.sha256 -text
+# Preserve exact bytes of Day 2 lab files.
+examples/01_Forensics_Basics/day02/*.txt -text

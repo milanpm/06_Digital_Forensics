@@ -1,0 +1,36 @@
+Digital Forensics Day 2 - Metadata Report
+==========================================
+
+Collected At:
+2026-09-18T13:00:21+09:00
+
+Environment:
+Windows 10 / Git Bash / NTFS
+
+File Metadata:
+metadata_evidence.txt
+  Size: 42 bytes
+  Access: 2026-09-18 12:44:19.577792800 +0900
+  Modify: 2026-09-18 12:44:19.577792800 +0900
+  Change: 2026-09-18 12:44:19.577792800 +0900
+  Birth: 2026-09-18 12:44:19.577792800 +0900
+
+normal_copy.txt
+  Size: 66 bytes
+  Access: 2026-09-18 12:51:05.474899700 +0900
+  Modify: 2026-09-18 12:51:05.474899700 +0900
+  Change: 2026-09-18 12:51:05.474899700 +0900
+  Birth: 2026-09-18 12:48:16.276988800 +0900
+
+preserved_copy.txt
+  Size: 42 bytes
+  Access: 2026-09-18 12:44:19.577792800 +0900
+  Modify: 2026-09-18 12:44:19.577792800 +0900
+  Change: 2026-09-18 12:55:16.960925700 +0900
+  Birth: 2026-09-18 12:48:26.840865900 +0900
+
+
+SHA-256:
+6a17e0edda531b94f7a0b8f94693ffaa617ac2f3a06027f83d518ba392eedb79 *metadata_evidence.txt
+b0e1dcdb40dbc975ce615eb90b6608169c82380781a54fcdf66c3689b30d8c99 *normal_copy.txt
+6a17e0edda531b94f7a0b8f94693ffaa617ac2f3a06027f83d518ba392eedb79 *preserved_copy.txt
