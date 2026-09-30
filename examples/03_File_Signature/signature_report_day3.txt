@@ -1,0 +1,23 @@
+Digital Forensics Day 3 - File Signature Report
+Generated: 2026-09-30 23:25:13 +0900
+Working directory: /d/GitHub/06_Digital_Forensics/examples/03_File_Signature
+
+[Signature Analysis]
+FILE                   EXPECTED        ACTUAL          STATUS
+---------------------- --------------- --------------- --------
+evidence.txt           TEXT            TEXT            MATCH
+disguised_image.jpg    JPEG            TEXT            MISMATCH
+sample.png             PNG             PNG             MATCH
+hidden_image.txt       TEXT            PNG             MISMATCH
+
+[File Type Analysis]
+evidence.txt:        ASCII text
+disguised_image.jpg: ASCII text
+sample.png:          PNG image data, 1 x 1, 8-bit gray+alpha, non-interlaced
+hidden_image.txt:    PNG image data, 1 x 1, 8-bit gray+alpha, non-interlaced
+
+[SHA-256]
+9a3359cc78fdd3d5735ed3888a0e3368f56da7dab391c56174517b55189dd95b *evidence.txt
+9a3359cc78fdd3d5735ed3888a0e3368f56da7dab391c56174517b55189dd95b *disguised_image.jpg
+431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460 *sample.png
+431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460 *hidden_image.txt
